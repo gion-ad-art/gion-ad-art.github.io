@@ -1,0 +1,275 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*-----------------------------------------------*/
+
+
+
+
+
+
+
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(255, 255, 255);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(0, 0, 0);
+}
+
+
+li{
+  list-style: none;
+}
+
+a{
+  color:  white;
+  text-decoration: none;
+}
+
+h1{
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+img{
+  vertical-align: bottom;
+}
+
+.sidebar{
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+.side-contents{
+  padding-left: 18%;
+}
+
+.side-logo{
+  height: 22.42px;
+  width: 87px;
+  padding: 25px 0 40px 0;
+}
+
+
+.side-menu{
+  padding-left: 0;
+}
+
+.side-menu li{
+  padding-bottom: 25px;
+}
+
+.side-menu li a{
+    color: #fff;
+    font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+    font-size: 14px;
+}
+
+.side-menu li a:hover{
+  text-decoration: underline;
+}
+
+.side-icon .fab{
+  padding: 45px 10px 0 0;
+}
+
+.side-icon .fab:hover{
+  opacity: 0.7;
+}
+
+.main-wrap{
+  width: 80%;
+  text-align: center;
+}
+
+.main-wrap a{
+  padding-top: 40px;
+}
+
+.main-img img{
+  width: 100%;
+}
+
+.message{
+  width: 85%;
+  margin: 50px auto;
+  padding-bottom: 40px;
+}
+
+.message p{
+  text-align: left;
+}
+
+.message-img img{
+  width: 33.333333333333333333333333333%;
+}
+
+span .wide-img{
+  width: 100%;
+}
+
+.brand{
+  margin: 50px 0;
+  border-bottom: 1px solid #fff;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.b-logo{
+  padding: 50px 0;
+  width: 24%;
+  display: inline-block;
+  text-align: left;
+}
+
+.b-logo img{
+  width: 90%;
+}
+
+.b-logo p{
+  width: 85%;
+  font-size: 12px;
+}
+
+.project{
+  border-bottom: 1px solid #fff;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.pro-container{
+  padding: 50px 0;
+}
+
+.pro-container img{
+  width: 50%;
+  float: left;
+  padding: 0 15px 10px 0;
+}
+
+
+.pro-container p{
+  text-align: left;
+}
+
+.company{
+  border-bottom: 1px solid #fff;
+  width: 85%;
+
+  margin: 50px auto;
+}
+.com-ad{
+  padding: 50px 0;
+}
+
+.com-ad p{
+  text-align: left;
+  display: inline-block;
+}
