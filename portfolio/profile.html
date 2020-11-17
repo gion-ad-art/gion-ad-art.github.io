@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Takenori_Gion</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="prof.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+    $(function(){
+    $('a[href^="#"]').click(function() {
+    var speed = 800;
+    var href= $(this).attr("href");
+    var target = $(href == "#" || href == "" ? 'html' : href);
+    var position = target.offset().top;
+    $('body,html').animate({scrollTop:position}, speed, 'swing');
+    return false;
+    });
+    });
+    </script>
+  </head>
+  <body>
+
+    <header>
+      <h1 id="logo"><a href="#company"><img src="img/tg-lg.png"></a></h1>
+      <nav id="menubar">
+      <ul>
+      <li><a href="#company">ABOUT.</a></li>
+      <li><a href="#service">SERVICE.</a></li>
+      <li><a href="#contact">CONTACT.</a></li>
+      </ul>
+      </nav>
+    </header>
+
+    <div id="container">
+      <div id="contents">
+
+
+        <section id="company">
+
+          <h2>ABOUT</h2>
+
+          <div class="ab">
+
+          <tr>
+          <h3>祇園　岳範</h3>
+          <td>
+            Takenori Gion<br>
+            1991.12.18<br>
+            京都府京都市　在住<br>
+            学生時代、情報システム科にてネットワークとプログラミングの基礎を学び、<br>
+            販売会社に就職後、自社店舗のコンサルタントとして働く。<br>
+            Webページ製作の経験と、運営マネジメントの経験を活かした<br>
+            人の役に立てるSEを目指し、独学で勉強を開始する。<br>
+            <br>
+            <br>
+            『サービスを通じて想いを繋げ、新しい価値観を創造するお手伝いができれば。』
+            と考えてます。
+          </td>
+          </tr>
+
+        </div>
+
+        </section>
+
+        <section id="service">
+
+          <h2>SERVICE</h2>
+
+          <div class="list">
+            <a href="https://gion-ad-art.github.io/write.html">
+            <img src="img/wt-pg.png" alt=""></a>
+            <h4>・Write</h4>
+            <p>Blog型Webページです。<br>
+             　模写コーディングを通じてHTML/CSSの習得に取り組みました。
+            </p>
+          </div>
+
+          <div class="list">
+            <a href="https://gion-ad-art.github.io/index.html">
+            <img src="img/pg-pg.png" alt=""></a>
+            <h4>・Progate</h4>
+            <p>LP型Webページです。<br>
+             　プロゲートを通じてのレスポンシブデザインの習得に取り組みました。
+            </p>
+          </div>
+
+          <div class="list">
+            <a href="https://gion-ad-art.github.io/fashion/fashion.html">
+            <img src="img/fa-pg.png" alt=""></a>
+            <h4>・Fashion</h4>
+            <p>架空のファッションブランドページです。<br>
+             　JSを用いて、ページ内リンクを実装しました。
+            </p>
+          </div>
+
+          <div class="list">
+            <a href="#">
+            <img src="img/no-ne.png" alt=""></a>
+            <h4>・None</h4>
+            <p>...</p>
+          </div>
+
+
+
+        </section>
+
+
+
+
+
+
+        <section id="contact">
+
+        <h2>CONTACT</h2>
+
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeknz37DoYDJFFeb6LSl4KSYT7pwrca7H4uLjsmg7-WBZoi5g/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
+
+        </section>
+
+        </div>
+
+        </div>
+
+        <footer>
+        <small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
+        <span class="pr">《<a href="https://template-party.com/" target="_blank">Web Design:Template-Party</a>》</span>
+        </footer>
+
+        <p class="nav-fix-pos-pagetop"><a href="#">↑</a></p>
+
+
+
+  </body>
+</html>
