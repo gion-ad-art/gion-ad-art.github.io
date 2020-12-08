@@ -105,10 +105,10 @@ body {
 	padding: 0px;
 	color: #DCDCDC;	/*全体の文字色*/
 	font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
-  background: rgb(0, 0, 0);
+        background: rgb(0, 0, 0);
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
-	background: #f0f0f0;	/*背景色*/
+	background: #8f4197;	/*背景色*/
 	-webkit-text-size-adjust: none;
 }
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;font-weight: normal;}
